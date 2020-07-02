@@ -1,0 +1,22 @@
+body {
+    background: #415488;
+}
+
+.Centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+#WelcomingLabel {
+    color: white;
+    font-size: 32px;
+}
+
+img {
+    padding: 10px;
+    border-radius: 15px;
+    outline-color: white;
+    outline-width: 2px;
+}
