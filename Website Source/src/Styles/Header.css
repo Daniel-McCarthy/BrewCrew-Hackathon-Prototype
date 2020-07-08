@@ -2,6 +2,8 @@ header {
     background-color: #1b1b1b;
     width: 100%;
     margin-bottom: 5px;
+    height: 88px;
+    position: relative;
 }
 
 /* Icons */
@@ -23,5 +25,31 @@ header {
     display: inline-block;
 }
 
+/* Buttons */
 
+.buttongroup {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    position: relative;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+
+    border: white, 6px, solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttongroup button:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#LoginSignupButtons {
+    position: absolute;
+    vertical-align: top;
+    bottom: 17%;
+    right: 10px;
 }

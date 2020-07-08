@@ -18,6 +18,10 @@ export class Header extends React.Component {
                     <img id='menu-dropdown' src={menuDropdownLogoURL}></img>
                     <img id='logo' src={cbiLogoURL}></img>
                 </div>
+                <div className='buttongroup' id='LoginSignupButtons'>
+                    <button>Login</button>
+                    <button>Sign Up</button>
+                </div>
             </header>
         )
     }
