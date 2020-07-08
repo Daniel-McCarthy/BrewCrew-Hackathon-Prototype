@@ -15,6 +15,11 @@ module.exports = (env, arg) => {
                 filename: 'index.html',
             })
         ],
+        watch: true,
+        watchOptions: {
+            aggregateTimeout: 200,
+            poll: 1000
+        },
         module: {
             rules: [
                 {
