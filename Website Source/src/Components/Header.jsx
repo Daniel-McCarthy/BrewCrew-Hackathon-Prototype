@@ -13,7 +13,9 @@ export class Header extends React.Component {
     render() {
         return (
             <header>
-                <img id='logo' src={cbiLogoURL}></img>
+                <div className='imageContainer'>
+                    <img id='logo' src={cbiLogoURL}></img>
+                </div>
             </header>
         )
     }

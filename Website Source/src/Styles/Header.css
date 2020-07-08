@@ -7,4 +7,9 @@ header {
 #logo {
     margin: 5px;
 
+.imageContainer {
+    display: inline-block;
+}
+
+
 }
