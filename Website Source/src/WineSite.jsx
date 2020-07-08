@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import './Styles/WineSite.css';
+import { Header } from './Components/Header.jsx'
 
 export class WineSite extends React.Component {
     constructor(props) {
@@ -19,6 +20,7 @@ export class WineSite extends React.Component {
     render() {
         return (
             <div>
+                <Header></Header>
                 <label id='WelcomingLabel' className='Centered' onClick={this.onLabelClicked} >{this.state.welcomeText}</label>
                 { this.state.showBird ? <img className='Centered' src={this.state.birdUrl}></img> : null }
             </div>
