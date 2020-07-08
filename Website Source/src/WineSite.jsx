@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import './WineSite.css';
+import './Styles/WineSite.css';
 
 export class WineSite extends React.Component {
     constructor(props) {
