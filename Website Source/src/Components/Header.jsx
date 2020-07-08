@@ -2,6 +2,7 @@ import * as React from "react";
 
 import '../Styles/Header.css';
 import cbiLogoURL from '../Images/logo-cbrands.png';
+import menuDropdownLogoURL from '../Images/menu-dropdown.png'
 
 export class Header extends React.Component {
     constructor(props) {
@@ -14,6 +15,7 @@ export class Header extends React.Component {
         return (
             <header>
                 <div className='imageContainer'>
+                    <img id='menu-dropdown' src={menuDropdownLogoURL}></img>
                     <img id='logo' src={cbiLogoURL}></img>
                 </div>
             </header>

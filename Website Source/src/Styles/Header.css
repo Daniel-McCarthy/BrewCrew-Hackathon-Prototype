@@ -4,8 +4,20 @@ header {
     margin-bottom: 5px;
 }
 
+/* Icons */
+
 #logo {
     margin: 5px;
+    height: 100%;
+    display: inline-block;
+}
+
+#menu-dropdown {
+    -webkit-transform:scale(.75);
+    -moz-transform:scale(.75);
+    scale: .75;
+    border-radius: 0;
+}
 
 .imageContainer {
     display: inline-block;
