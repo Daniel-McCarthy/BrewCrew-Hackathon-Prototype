@@ -23,6 +23,7 @@ module.exports = (env, arg) => {
             aggregateTimeout: 200,
             poll: 1000
         },
+        devtool: 'source-map',
         module: {
             rules: [
                 {
