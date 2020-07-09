@@ -1,0 +1,28 @@
+.slideshow {
+    background-color: #000000e7;
+    position: relative;
+}
+
+.slideshow img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+ @-webkit-keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ @keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+ 
+ .fade {
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+ }
