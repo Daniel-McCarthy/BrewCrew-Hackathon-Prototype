@@ -28,6 +28,18 @@ export class WineSite extends React.Component {
             <div>
                 <Header></Header>
                 <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
+                <div id={'infoDiv'} className={'Centered'}>
+                    <b className={'SingleLine'}>
+                        Placeholder introduction!
+                    </b>
+                    <a>
+                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
+                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
+                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
+                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
+                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.
+                    </a>
+                </div>
 
             </div>
         )
