@@ -54,6 +54,20 @@ export class WineSite extends React.Component {
                     ></iframe>
                 </div>
 
+                <div id={'VideoTest'} className={'Centered'}>
+                    <b className={'SingleLine'}>
+                        Stream Test
+                    </b>
+                    <iframe
+                        src="https://player.twitch.tv/?video=612977898&parent=https%3A%2F%2Fdaniel-mccarthy.github.io%2FBrewCrew-Hackathon-Prototype"
+                        frameborder="0"
+                        allowfullscreen="true"
+                        scrolling="no"
+                        height="560"
+                        width="315"
+                    ></iframe>
+                </div>
+
             </div>
         )
     }
