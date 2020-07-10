@@ -2,7 +2,7 @@ import * as React from "react";
 
 import './Styles/WineSite.css';
 import { Header } from './Components/Header.jsx'
-import { SignIn } from './sign-in.jsx'
+import { SignIn } from './Components/sign-in.jsx'
 
 export class WineSite extends React.Component {
     constructor(props) {
