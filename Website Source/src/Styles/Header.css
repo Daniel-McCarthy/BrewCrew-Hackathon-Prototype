@@ -14,6 +14,7 @@ header {
 }
 
 #menu-dropdown {
+    transform:scale(.75);
     -webkit-transform:scale(.75);
     -moz-transform:scale(.75);
     -ms-transform:scale(.75);
