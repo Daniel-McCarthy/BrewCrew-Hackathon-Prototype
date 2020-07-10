@@ -15,6 +15,15 @@ module.exports = (env, arg) => {
                 filename: 'index.html',
             })
         ],
+        watch: 
+            arg.watch !== undefined 
+                ? arg.watch
+                : true,
+        watchOptions: {
+            aggregateTimeout: 200,
+            poll: 1000
+        },
+        devtool: 'source-map',
         module: {
             rules: [
                 {

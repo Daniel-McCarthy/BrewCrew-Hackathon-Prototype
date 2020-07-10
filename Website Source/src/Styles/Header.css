@@ -1,10 +1,56 @@
 header {
     background-color: #1b1b1b;
     width: 100%;
-    margin-bottom: 5px;
+    height: 88px;
+    position: relative;
 }
+
+/* Icons */
 
 #logo {
     margin: 5px;
+    height: 100%;
+    display: inline-block;
+}
 
+#menu-dropdown {
+    transform:scale(.75);
+    -webkit-transform:scale(.75);
+    -moz-transform:scale(.75);
+    -ms-transform:scale(.75);
+    -o-transform:scale(.75);
+    border-radius: 0;
+}
+
+.imageContainer {
+    display: inline-block;
+}
+
+/* Buttons */
+
+.buttongroup {
+    position: relative;
+    display: inline-block;
+}
+
+button {
+    position: relative;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+
+    border: white, 6px, solid;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.buttongroup button:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#LoginSignupButtons {
+    position: absolute;
+    vertical-align: top;
+    bottom: 17%;
+    right: 10px;
 }

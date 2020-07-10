@@ -21,3 +21,23 @@ img {
     outline-color: white;
     outline-width: 2px;
 }
+
+#infoDiv {
+    background-color: #000000a6;
+    color: whitesmoke;
+    width: 80%;
+    min-height: 100px;
+    padding: 30px 10px 50px 50px;
+}
+
+.SingleLine {
+    display: block;
+    padding-bottom: 5px;
+}
+
+#VideoTest {
+    margin-top: 20px;
+    background-color: #000000a6;
+    color: whitesmoke;
+
+}

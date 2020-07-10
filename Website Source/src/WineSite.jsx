@@ -3,14 +3,20 @@ import * as React from "react";
 import './Styles/WineSite.css';
 import { Header } from './Components/Header.jsx'
 import { SignIn } from './Components/sign-in.jsx'
+import { Slideshow } from './Components/Slideshow.jsx'
+
+// Slideshow Images
+import wineURL1 from './Images/alcoholic_beverage_beverage_blur_bokeh_champagne_close_up_depth_of_field_drink-1554619.jpeg';
+import wineURL2 from './Images/wine_bottle_alcohol_bottle_of_wine_bar_shelf_enoteca_aperitif-341736.jpeg';
+import wineURL3 from './Images/wines-2748006_1920.jpg';
+import wineURL4 from './Images/wine-sun-silhouette-vine-grape-vintage-vineyards-alcohol-red.jpg';
 
 export class WineSite extends React.Component {
     constructor(props) {
         super(props)
+
         this.state = {
-            welcomeText: "Hello",
-            showBird: false,
-            birdUrl: 'https://3.bp.blogspot.com/_73tR7MQIFo8/SxMC59tyoaI/AAAAAAAADNc/UbhAlLJdOW0/s1600/BCChickadee+smalled+12_02_07.jpg'
+            slideShowImages: [wineURL1, wineURL2, wineURL3, wineURL4]
         }
     }
 
@@ -22,9 +28,48 @@ export class WineSite extends React.Component {
         return (
             <div>
                 <Header></Header>
+                <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
+                <div id={'infoDiv'} className={'Centered'}>
+                    <b className={'SingleLine'}>
+                        Placeholder introduction!
+                    </b>
+                    <a>
+                        Text placeholder goes here.<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                    </a>
+                </div>
                 <SignIn></SignIn>
-                <label id='WelcomingLabel' className='Centered' onClick={this.onLabelClicked} >{this.state.welcomeText}</label>
-                { this.state.showBird ? <img className='Centered' src={this.state.birdUrl}></img> : null }
+
+                <div id={'VideoTest'} className={'Centered'}>
+                    <b className={'SingleLine'}>
+                        Video Test
+                    </b>
+                    <iframe 
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/Bfz_Ij1ktsw?controls=0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    ></iframe>
+                </div>
+
+                <div id={'VideoTest'} className={'Centered'}>
+                    <b className={'SingleLine'}>
+                        Stream Test
+                    </b>
+                    <iframe
+                        src="https://player.twitch.tv/?video=662525681&parent=daniel-mccarthy.github.io"
+                        frameborder="0"
+                        allowfullscreen="true"
+                        scrolling="no"
+                        width="560"
+                        height="315"
+                    ></iframe>
+                </div>
             </div>
         )
     }
