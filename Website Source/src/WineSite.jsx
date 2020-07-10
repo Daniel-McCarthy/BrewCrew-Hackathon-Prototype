@@ -31,11 +31,13 @@ export class WineSite extends React.Component {
                 <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
                 <div id={'infoDiv'} className={'Centered'}>
                     <b className={'SingleLine'}>
-                        Placeholder introduction!
+                        Welcome to Constellation Brands wine tasting broadcasts!<br/>
                     </b>
                     <a>
-                        Text placeholder goes here.<br/>
-                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        We will be hosting live events showing off our fantastic selection of wines, and engaging with our loyal wine enthusiasts!<br/>
+                        The tastings are on a regular schedule to share our thoughts and give insight on our varieties of wines. Our Drink Night<br/>
+                        keeps our audience informed and engaged! Our wines can be found in stores across the country, so join in on the fun and<br/>
+                        share your time with us. You can sign up to get access to our broadcasts and get notified when a stream is coming up! Enjoy!<br/>
                         _____________________________________________________________________________________________________________________________________________________<br/>
                         _____________________________________________________________________________________________________________________________________________________<br/>
                         _____________________________________________________________________________________________________________________________________________________<br/>
