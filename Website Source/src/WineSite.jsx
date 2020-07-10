@@ -2,6 +2,7 @@ import * as React from "react";
 
 import './Styles/WineSite.css';
 import { Header } from './Components/Header.jsx'
+import { SignIn } from './Components/sign-in.jsx'
 import { Slideshow } from './Components/Slideshow.jsx'
 
 // Slideshow Images
@@ -41,6 +42,7 @@ export class WineSite extends React.Component {
                         _____________________________________________________________________________________________________________________________________________________<br/>
                     </a>
                 </div>
+                <SignIn></SignIn>
 
                 <div id={'VideoTest'} className={'Centered'}>
                     <b className={'SingleLine'}>
@@ -68,7 +70,6 @@ export class WineSite extends React.Component {
                         height="315"
                     ></iframe>
                 </div>
-
             </div>
         )
     }
