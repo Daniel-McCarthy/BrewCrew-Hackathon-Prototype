@@ -33,11 +33,12 @@ export class WineSite extends React.Component {
                         Placeholder introduction!
                     </b>
                     <a>
-                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
-                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
-                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
-                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.&nbsp;
-                        Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here. Text placeholder goes here.
+                        Text placeholder goes here.<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
+                        _____________________________________________________________________________________________________________________________________________________<br/>
                     </a>
                 </div>
 
