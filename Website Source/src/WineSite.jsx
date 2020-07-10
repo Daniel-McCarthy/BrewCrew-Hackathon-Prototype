@@ -41,6 +41,19 @@ export class WineSite extends React.Component {
                     </a>
                 </div>
 
+                <div id={'VideoTest'} className={'Centered'}>
+                    <b className={'SingleLine'}>
+                        Video Test
+                    </b>
+                    <iframe 
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/Bfz_Ij1ktsw?controls=0"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                    ></iframe>
+                </div>
+
             </div>
         )
     }
