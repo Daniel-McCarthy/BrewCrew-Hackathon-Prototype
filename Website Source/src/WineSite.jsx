@@ -59,7 +59,7 @@ export class WineSite extends React.Component {
                         Stream Test
                     </b>
                     <iframe
-                        src="https://player.twitch.tv/?video=612977898&parent=https%3A%2F%2Fdaniel-mccarthy.github.io%2FBrewCrew-Hackathon-Prototype"
+                        src="https://player.twitch.tv/?video=612977898&parent=daniel-mccarthy.github.io"
                         frameborder="0"
                         allowfullscreen="true"
                         scrolling="no"
