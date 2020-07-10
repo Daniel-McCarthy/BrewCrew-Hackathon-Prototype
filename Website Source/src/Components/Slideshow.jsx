@@ -19,7 +19,9 @@ export class Slideshow extends React.Component {
         this.state = {
             images: imagesToUse,
             currentIndex: 0,
-            photoChangeTimeoutSeconds: 5,
+            photoChangeTimeoutSeconds: this.props.timeBetweenImageChanges != null
+                ? this.props.timeBetweenImageChanges
+                : 5,
             height: this.props.height
         }
     }

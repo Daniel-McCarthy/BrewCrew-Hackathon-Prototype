@@ -4,19 +4,18 @@ import './Styles/WineSite.css';
 import { Header } from './Components/Header.jsx'
 import { Slideshow } from './Components/Slideshow.jsx'
 
+// Slideshow Images
+import wineURL1 from './Images/alcoholic_beverage_beverage_blur_bokeh_champagne_close_up_depth_of_field_drink-1554619.jpeg';
+import wineURL2 from './Images/wine_bottle_alcohol_bottle_of_wine_bar_shelf_enoteca_aperitif-341736.jpeg';
+import wineURL3 from './Images/wines-2748006_1920.jpg';
+import wineURL4 from './Images/wine-sun-silhouette-vine-grape-vintage-vineyards-alcohol-red.jpg';
+
 export class WineSite extends React.Component {
     constructor(props) {
         super(props)
 
-        let chickadeePhotoUrl = 'https://3.bp.blogspot.com/_73tR7MQIFo8/SxMC59tyoaI/AAAAAAAADNc/UbhAlLJdOW0/s1600/BCChickadee+smalled+12_02_07.jpg';
-        let cardinalPhotoURL = 'https://1527ex49ndlb1w9lwr3ovb40-wpengine.netdna-ssl.com/wp-content/uploads/galleries/post-187/full/Cardinal_MG_4575_.jpg';
-        let robinPhotoURL = 'https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/06/10/23/pg-18-robin-2-pa.jpg';
-
         this.state = {
-            welcomeText: "Hello",
-            showBird: false,
-            birdUrl: chickadeePhotoUrl,
-            slideShowImages: [chickadeePhotoUrl, cardinalPhotoURL, robinPhotoURL]
+            slideShowImages: [wineURL1, wineURL2, wineURL3, wineURL4]
         }
     }
 
@@ -28,10 +27,8 @@ export class WineSite extends React.Component {
         return (
             <div>
                 <Header></Header>
-                <Slideshow height={600} images={this.state.slideShowImages}></Slideshow>
+                <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
 
-                <label id='WelcomingLabel' className='Centered' onClick={this.onLabelClicked} >{this.state.welcomeText}</label>
-                { this.state.showBird ? <img className='Centered' src={this.state.birdUrl}></img> : null }
             </div>
         )
     }
