@@ -22,12 +22,11 @@ img {
     outline-width: 2px;
 }
 
-}
 .signup-form{
   width: 300px;
   padding: 20px;
   text-align: center;
-  background: url(wineshelf1.jpg);
+  background: url(../Images/wineshelf1.jpg);
   position: absolute;
   top: 50%;
   left: 50%;

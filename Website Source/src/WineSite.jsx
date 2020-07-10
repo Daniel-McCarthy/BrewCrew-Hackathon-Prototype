@@ -2,6 +2,7 @@ import * as React from "react";
 
 import './Styles/WineSite.css';
 import { Header } from './Components/Header.jsx'
+import { SignIn } from './sign-in.jsx'
 
 export class WineSite extends React.Component {
     constructor(props) {
@@ -21,6 +22,7 @@ export class WineSite extends React.Component {
         return (
             <div>
                 <Header></Header>
+                <SignIn></SignIn>
                 <label id='WelcomingLabel' className='Centered' onClick={this.onLabelClicked} >{this.state.welcomeText}</label>
                 { this.state.showBird ? <img className='Centered' src={this.state.birdUrl}></img> : null }
             </div>
