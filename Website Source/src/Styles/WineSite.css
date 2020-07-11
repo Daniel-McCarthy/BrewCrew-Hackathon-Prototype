@@ -22,12 +22,18 @@ img {
     outline-width: 2px;
 }
 
+/* Div for video embed testing */
+#VideoTest {
+    margin-top: 20px;
+    background-color: #000000a6;
+    color: whitesmoke;
+}
+
 #infoDiv {
     background-color: #000000a6;
     color: whitesmoke;
-    width: 80%;
+    width: 100%;
     min-height: 100px;
-    padding: 30px 10px 50px 50px;
 }
 
 .SingleLine {
@@ -35,12 +41,25 @@ img {
     padding-bottom: 5px;
 }
 
-#VideoTest {
-    margin-top: 20px;
-    background-color: #000000a6;
-    color: whitesmoke;
+.signup-form {
+    display: inline-block;
 }
 
-.signup-form {
-    margin-top: 20px;
+#introText {
+    display: inline-block;
+    position: relative;
+    width: calc(100% - 340px);
+    padding-top: 10%;
+    height: 100%;
+    margin-bottom: auto;
+    text-align: center;
+    vertical-align: top;
+}
+
+.parallax-background {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Images/wine_vinorama_wine_bottle_cellar_red_wine_wines_storage_wine_rack-1077047.jpeg');
 }

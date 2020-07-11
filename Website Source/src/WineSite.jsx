@@ -29,22 +29,24 @@ export class WineSite extends React.Component {
             <div>
                 <Header></Header>
                 <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
-                <div id={'infoDiv'} className={'Centered'}>
-                    <b className={'SingleLine'}>
-                        Welcome to Constellation Brands wine tasting broadcasts!<br/>
-                    </b>
-                    <a>
-                        We will be hosting live events showing off our fantastic selection of wines, and engaging with our loyal wine enthusiasts!<br/>
-                        The tastings are on a regular schedule to share our thoughts and give insight on our varieties of wines. Our Drink Night<br/>
-                        keeps our audience informed and engaged! Our wines can be found in stores across the country, so join in on the fun and<br/>
-                        share your time with us. You can sign up to get access to our broadcasts and get notified when a stream is coming up! Enjoy!<br/>
-                        _____________________________________________________________________________________________________________________________________________________<br/>
-                        _____________________________________________________________________________________________________________________________________________________<br/>
-                        _____________________________________________________________________________________________________________________________________________________<br/>
-                        _____________________________________________________________________________________________________________________________________________________<br/>
-                    </a>
+                <div className='parallax-background'>
+                    <div id={'infoDiv'} className={/*'Centered'*/''}>
+                        <SignIn></SignIn>
+                        <div id='introText'>
+                            <b className={'SingleLine'}>
+                                Welcome to Constellation Brands wine tasting broadcasts!<br/>
+                            </b>
+                            <a>
+                                We're hosting live events showing our fantastic selection of wines, and<br/>
+                                engaging with our loyal wine enthusiasts! The tastings are on a regular<br/>
+                                schedule to share insight on our variety of wines. Our Drink Night trivia<br/>
+                                keeps viewers informed & engaged! Our wines are found in stores across<br/>
+                                the country, so join in on the fun and share your time with us. Sign up to<br/>
+                                get access to our broadcasts and get notified about upcoming streams! Enjoy!<br/>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <SignIn></SignIn>
 
                 <div id={'VideoTest'} className={'Centered'}>
                     <b className={'SingleLine'}>
