@@ -67,8 +67,9 @@ export class WineSite extends React.Component {
                         width="560"
                         height="315"
                         src="https://www.youtube.com/embed/Bfz_Ij1ktsw?controls=0"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen='true'
                     ></iframe>
                 </div>
 
@@ -78,8 +79,8 @@ export class WineSite extends React.Component {
                     </b>
                     <iframe
                         src="https://player.twitch.tv/?video=662525681&parent=daniel-mccarthy.github.io"
-                        frameborder="0"
-                        allowfullscreen="true"
+                        frameBorder="0"
+                        allowFullScreen="true"
                         scrolling="no"
                         width="560"
                         height="315"

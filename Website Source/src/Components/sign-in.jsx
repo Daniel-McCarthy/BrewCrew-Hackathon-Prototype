@@ -10,13 +10,13 @@ export class SignIn extends React.Component {
 
     render() {
         return (
-            <div class={"signup-form"}>
-                <form class="" action={"index.html"} method={"post"}>
+            <div className={"signup-form"}>
+                <form action={"index.html"} method={"post"}>
                     <h1>Sign Up</h1>
-                    <input type="text" placeholder="Full Name" class="txtb"></input>
-                    <input type="email" placeholder="Email" class="txtb"></input>
-                    <input type="password" placeholder="Password" class="txtb"></input>
-                    <input type="submit" value="Create Account" class="signup-btn"></input>
+                    <input type="text" placeholder="Full Name" className="txtb"></input>
+                    <input type="email" placeholder="Email" className="txtb"></input>
+                    <input type="password" placeholder="Password" className="txtb"></input>
+                    <input type="submit" value="Create Account" className="signup-btn"></input>
                     <a href="#">Already Have one ?</a>
                 </form>
             </div>

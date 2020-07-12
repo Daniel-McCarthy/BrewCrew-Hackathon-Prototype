@@ -42,7 +42,7 @@ export class Calendar extends React.Component {
     renderDatesTable = () => {
         let datesInWeeks = this.datesToWeekArrays();
         return (
-            <div class='tableContainer'>
+            <div className='tableContainer'>
                 {datesInWeeks.map(
                     (weekArray, weekIndex) => {
                         return (
@@ -80,8 +80,8 @@ export class Calendar extends React.Component {
 
     render() {
         return (
-            <div class={"calendar"}>
-                <div class='calendarHeader'>
+            <div className={"calendar"}>
+                <div className='calendarHeader'>
                     <p className='headerMonth'>
                         {this.state.month}
                     </p>
@@ -89,14 +89,14 @@ export class Calendar extends React.Component {
                         {this.state.dayNumber}
                     </p>
                 </div>
-                <div class='calendarDayContainer'>
-                    <div class='dayHeaderContainer'>
+                <div className='calendarDayContainer'>
+                    <div className='dayHeaderContainer'>
                         {/* Sat Mon Tue Wed Thu Fri Sun */}
                         {getWeekDayLabels().map( 
                             (day, column) => {
                                 return (
-                                    <div className='dayHeader'>
-                                        <p key={column} >
+                                    <div key={column} className='dayHeader'>
+                                        <p>
                                             {day}
                                         </p>
                                     </div>
@@ -104,7 +104,7 @@ export class Calendar extends React.Component {
                             }
                         )}
                     </div>
-                    <div class='daysTable'>
+                    <div className='daysTable'>
                         {this.renderDatesTable()}
                     </div>
                 </div>
