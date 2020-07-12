@@ -24,6 +24,11 @@ module.exports = (env, arg) => {
             poll: 1000
         },
         devtool: 'source-map',
+        devServer: {
+            contentBase: '../',
+            compress: true,
+            port: 9000
+        },
         module: {
             rules: [
                 {
