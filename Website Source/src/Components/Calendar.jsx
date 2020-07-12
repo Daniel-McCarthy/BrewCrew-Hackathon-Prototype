@@ -52,14 +52,16 @@ export class Calendar extends React.Component {
                             >
                                 {weekArray.map(
                                     (date, weekDayNum) => {
-                                        let dateIndex = (weekIndex*7)+weekDayNum;
+                                        let dateIndex           = (weekIndex*7) + weekDayNum;
                                         const isDateInThisMonth = date.getMonth() === this.state.date.getMonth();
-                                        const currentMonthClass = isDateInThisMonth ? 'currentMonth' : 'differentMonth'
-                                        const eventDayClass = this.isEventDay(weekDayNum, weekIndex) ? ' eventDay' : '';
+                                        const currentMonthClass = isDateInThisMonth ? 'currentMonth' : 'differentMonth';
+                                        const isDateThisDay     = date.getDate() === this.state.date.getDate();
+                                        const currentDayClass   = isDateThisDay ? ' currentDay' : '';
+                                        const eventDayClass     = this.isEventDay(weekDayNum, weekIndex) ? ' eventDay' : '';
                                         return (
                                             <div
                                                 key={'Date'+dateIndex}
-                                                className={'calendarDay ' + currentMonthClass + eventDayClass}
+                                                className={'calendarDay ' + currentMonthClass + eventDayClass + currentDayClass}
                                             >
                                                 <p>
                                                     {date.getDate()}

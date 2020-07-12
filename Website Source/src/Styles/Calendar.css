@@ -86,6 +86,10 @@ p {
     background-color: white;
 }
 
+.currentDay {
+    background-color: rgb(234, 230, 253);
+}
+
 .eventDay p {
     border-bottom: rgb(163, 17, 17) 3px solid;
     border-radius: 5%;
