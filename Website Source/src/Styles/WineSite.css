@@ -10,6 +10,8 @@ body {
     width: max-content;
 }
 
+/* Signup and Introductory Section */
+
 #WelcomingLabel {
     color: white;
     font-size: 32px;
@@ -20,13 +22,6 @@ img {
     border-radius: 15px;
     outline-color: white;
     outline-width: 2px;
-}
-
-/* Div for video embed testing */
-#VideoTest {
-    margin-top: 20px;
-    background-color: #000000a6;
-    color: whitesmoke;
 }
 
 #infoDiv {
@@ -62,4 +57,34 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../Images/wine_vinorama_wine_bottle_cellar_red_wine_wines_storage_wine_rack-1077047.jpeg');
+}
+
+/* Calendar Section */
+
+#calendarContainer {
+    width: 100%;
+}
+
+#calendarContainer .scheduleLabel {
+    color: whitesmoke;
+    /* font-family: "Lucida Console", Monaco, monospace; */
+    font-family: 'Candal';
+    font-size: 32px;
+
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+#calendarSpacer {
+    height: 6px;
+    background-color: grey;
+    border-bottom: white 4px solid;
+    margin-bottom: 75px;
+}
+
+/* Div for video embed testing */
+#VideoTest {
+    margin-top: 20px;
+    background-color: #000000a6;
+    color: whitesmoke;
 }

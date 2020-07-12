@@ -4,6 +4,7 @@ import './Styles/WineSite.css';
 import { Header } from './Components/Header.jsx'
 import { SignIn } from './Components/sign-in.jsx'
 import { Slideshow } from './Components/Slideshow.jsx'
+import { Calendar } from './Components/Calendar.jsx'
 
 // Slideshow Images
 import wineURL1 from './Images/alcoholic_beverage_beverage_blur_bokeh_champagne_close_up_depth_of_field_drink-1554619.jpeg';
@@ -30,7 +31,7 @@ export class WineSite extends React.Component {
                 <Header></Header>
                 <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
                 <div className='parallax-background'>
-                    <div id={'infoDiv'} className={/*'Centered'*/''}>
+                    <div id={'infoDiv'}>
                         <SignIn></SignIn>
                         <div id='introText'>
                             <b className={'SingleLine'}>
@@ -47,6 +48,15 @@ export class WineSite extends React.Component {
                         </div>
                     </div>
                 </div>
+
+                <div id='calendarContainer'>
+                    <p className='Centered scheduleLabel'>
+                        Event Schedule
+                    </p>
+                    <Calendar></Calendar>
+                </div>
+
+                <div id='calendarSpacer'></div>
 
                 <div id={'VideoTest'} className={'Centered'}>
                     <b className={'SingleLine'}>
