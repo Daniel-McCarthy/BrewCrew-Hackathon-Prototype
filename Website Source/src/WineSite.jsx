@@ -2,6 +2,7 @@ import * as React from "react";
 
 import './Styles/WineSite.css';
 import { Header } from './Components/Header.jsx'
+import { Footer } from './Components/Footer.jsx'
 import { SignIn } from './Components/sign-in.jsx'
 import { Slideshow } from './Components/Slideshow.jsx'
 import { Calendar } from './Components/Calendar.jsx'
@@ -84,6 +85,7 @@ export class WineSite extends React.Component {
                         height="315"
                     ></iframe>
                 </div>
+                <Footer></Footer>
             </div>
         )
     }

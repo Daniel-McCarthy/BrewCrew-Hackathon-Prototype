@@ -1,0 +1,44 @@
+footer {
+    background-color: rgb(32, 32, 32);
+    border-top: black 6px solid;
+    
+    margin-top: 100px;
+    height: 500px;
+    display: flex;
+
+    /* Parallax background */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../Images/wine-vineyard-landscape-horizon-nature-farm.jpg');
+}
+
+footer p, footer a {
+    color: whitesmoke;
+    vertical-align: middle;
+    height: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer p {
+    display: inline-flex;
+    font-size: 48px;
+    font-family: cursive;
+}
+
+footer a {
+    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 0;
+    font-size: 32px;
+    font-family: monospace;
+}
+
+footer div {
+    text-align: center;
+    vertical-align: middle;
+    height: max-content;
+    margin: auto;
+}
