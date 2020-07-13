@@ -26,7 +26,7 @@ module.exports = (env, arg) => {
         devtool:
             arg.mode === 'development'
                 ? 'source-map'
-                : '',
+                : 'none',
         devServer: {
             contentBase: '../',
             compress: true,
