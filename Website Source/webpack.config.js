@@ -11,7 +11,9 @@ module.exports = (env, arg) => {
         },
         plugins: [
             new HtmlWebpackPlugin({
-                template: './src/index.html',
+                template: arg.mode === 'development'
+                    ? './src/index-dev.html'
+                    : './src/index.html',
                 filename: 'index.html',
             })
         ],
