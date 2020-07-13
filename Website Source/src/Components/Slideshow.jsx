@@ -2,6 +2,8 @@ import * as React from "react";
 
 import '../Styles/Slideshow.css';
 
+let isMounted = false;
+
 export class Slideshow extends React.Component {
     constructor(props) {
         super(props)
@@ -29,14 +31,17 @@ export class Slideshow extends React.Component {
     changePhotoAfterTime = () => {
         let newIndex = (this.state.currentIndex + 1) % this.state.images.length;
         setTimeout(function() { 
-            this.setState({currentIndex: newIndex});
+            if (isMounted === true) {
+                this.setState({currentIndex: newIndex});
+            }
         }.bind(this), this.state.photoChangeTimeoutSeconds * 1000);
     }
 
     removeFadeClass = () => {
-        if (this.imgRef != null) {
-            this.imgRef.className = '';
-        }
+        if (this.imgRef == null || isMounted === false)
+            return;
+
+        this.imgRef.className = '';
     }
 
     setRef = (element) => {
@@ -44,6 +49,14 @@ export class Slideshow extends React.Component {
             this.imgRef = element;
             element.className = 'fade';
         }
+    }
+
+    componentDidMount = () => {
+        isMounted = true;
+    }
+
+    componentWillUnmount = () => {
+        isMounted = false;
     }
 
     render() {
