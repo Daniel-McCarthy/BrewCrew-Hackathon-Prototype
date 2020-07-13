@@ -27,7 +27,8 @@ module.exports = (env, arg) => {
         devServer: {
             contentBase: '../',
             compress: true,
-            port: 9000
+            port: 9000,
+            historyApiFallback: true // This is for React-Router routing with localhost.
         },
         module: {
             rules: [

@@ -1,9 +1,9 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { WineSite } from "./WineSite.jsx";
+import { Site } from "./Site.jsx";
 
 ReactDOM.render(
-    <WineSite/>,
+    <Site/>,
     document.getElementById("WebsiteEntryPoint")
 );
