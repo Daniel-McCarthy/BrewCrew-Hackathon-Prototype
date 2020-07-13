@@ -23,7 +23,10 @@ module.exports = (env, arg) => {
             aggregateTimeout: 200,
             poll: 1000
         },
-        devtool: 'source-map',
+        devtool:
+            arg.mode === 'development'
+                ? 'source-map'
+                : '',
         devServer: {
             contentBase: '../',
             compress: true,
