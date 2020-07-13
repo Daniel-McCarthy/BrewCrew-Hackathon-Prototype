@@ -35,6 +35,7 @@
     "build": "cross-env NODE_ENV=development webpack --mode development --config webpack.config.js",
     "build:prod": "cross-env NODE_ENV=production webpack --watch false --mode production --config webpack.config.js",
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --mode development",
+    "start:prod": "cross-env NODE_ENV=production webpack-dev-server --mode production",
     "deploy": "yarn build:prod && find ../docs -type f -exec git update-index --no-assume-unchanged '{}' \\; && git add --force ../docs && git commit -m \"Deploy current webpage build to GitHub Pages\" && find ../docs -type f -exec git update-index --assume-unchanged '{}' \\;"
   }
 }
