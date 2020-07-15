@@ -44,7 +44,7 @@ img {
 #introText {
     display: inline-block;
     position: relative;
-    width: calc(100% - 340px);
+    width: calc(100% - 540px);
     padding-top: 10%;
     height: 100%;
     margin-bottom: auto;
