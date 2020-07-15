@@ -229,7 +229,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".slideshow {\r\n    background-color: #000000e7;\r\n    position: relative;\r\n}\r\n\r\n.slideshow img {\r\n    display: block;\r\n   width: 50%;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n \r\n @-webkit-keyframes fade {\r\n    0% {opacity: 0;}\r\n    100% {opacity: 1;}\r\n }\r\n \r\n @keyframes fade {\r\n    0% {opacity: 0;}\r\n    100% {opacity: 1;}\r\n }\r\n \r\n .fade {\r\n    -webkit-animation-name: fade;\r\n    animation-name: fade;\r\n    -webkit-animation-duration: 1s;\r\n    animation-duration: 1s;\r\n }", ""]);
+exports.push([module.i, ".slideshow {\r\n    background-color: #000000e7;\r\n    position: relative;\r\n}\r\n\r\n.slideshow img {\r\n    display: block;\r\n    width: 97%;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n \r\n @-webkit-keyframes fade {\r\n    0% {opacity: 0;}\r\n    100% {opacity: 1;}\r\n }\r\n \r\n @keyframes fade {\r\n    0% {opacity: 0;}\r\n    100% {opacity: 1;}\r\n }\r\n \r\n .fade {\r\n    -webkit-animation-name: fade;\r\n    animation-name: fade;\r\n    -webkit-animation-duration: 1s;\r\n    animation-duration: 1s;\r\n }", ""]);
 // Exports
 module.exports = exports;
 
