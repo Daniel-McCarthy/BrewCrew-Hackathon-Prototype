@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from 'react-router-dom';
 
 import '../Styles/Header.css';
 import cbiLogoURL from '../Images/logo-cbrands.png';
@@ -23,6 +24,24 @@ export class Header extends React.Component {
         location.href = url;
     }
 
+    renderNavButton = () => {
+        let isOnEventsPage = document.URL.indexOf('/Event') !== -1;
+
+        if (!isOnEventsPage) {
+            return (
+                <Link to={'/Event'} id='navButton' >
+                    <button>Events</button>
+                </Link>
+            )
+        }
+
+        return (
+            <Link to={'/'} id='navButton' >
+                <button>Home</button>
+            </Link>
+        )
+    }
+
     renderButtons = () => {
         let currentURL = new URL(document.URL);
         let loggedInParamVal = currentURL.searchParams.get('l');
@@ -30,6 +49,7 @@ export class Header extends React.Component {
         if (loggedInParamVal === '1') {
             return (
                 <div className='buttongroup' id='LoginSignupButtons'>
+                    {this.renderNavButton()}
                     <button onClick={this.simulateSignOut}>Sign Out</button>
                 </div>
             );
