@@ -29,6 +29,7 @@ img {
     color: whitesmoke;
     width: 100%;
     min-height: 100px;
+    border-bottom: white 2px solid;
 }
 
 .SingleLine {
