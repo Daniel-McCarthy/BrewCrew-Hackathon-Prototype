@@ -72,16 +72,22 @@ export class SignIn extends React.Component {
         )
     }
 
+    onSubmit = () => {
+        let url = new URL(document.URL);
+        url.searchParams.set('l', 1);
+        location.href = url;
+    }
+
     render() {
         return (
             <div className={"signup-form"}>
-                <form action={"index.html"} method={"post"}>
+                <form>
                     <h1>Sign Up</h1>
-                    <input type="submit" value="Create Account" className="signup-btn"></input>
                     <a href="#">Already Have one ?</a>
                     <input id='nameInput'     type="text"     placeholder="Full Name"   className={"txtb"} onClick={this.fakeRegistration}></input>
                     <input id='emailInput'    type="email"    placeholder="Email"       className="txtb"></input>
                     <input id='passwordInput' type="password" placeholder="Password"    className="txtb"></input>
+                    <input id='submitButton' type="submit" value="Create Account" className="signup-btn" onClick={this.onSubmit}></input>
                 </form>
 
                 <span id='nameOverlay' className='overlayDiv'>

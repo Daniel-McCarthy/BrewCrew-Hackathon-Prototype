@@ -11,6 +11,38 @@ export class Header extends React.Component {
         }
     }
 
+    simulateSignOut = () => {
+        let url = new URL(document.URL);
+        url.searchParams.delete('l');
+        location.href = url;
+    }
+
+    simulateSignIn = () => {
+        let url = new URL(document.URL);
+        url.searchParams.set('l', 1);
+        location.href = url;
+    }
+
+    renderButtons = () => {
+        let currentURL = new URL(document.URL);
+        let loggedInParamVal = currentURL.searchParams.get('l');
+
+        if (loggedInParamVal === '1') {
+            return (
+                <div className='buttongroup' id='LoginSignupButtons'>
+                    <button onClick={this.simulateSignOut}>Sign Out</button>
+                </div>
+            );
+        }
+
+        return (
+            <div className='buttongroup' id='LoginSignupButtons'>
+                <button onClick={this.simulateSignIn} >Login</button>
+                <button>Sign Up</button>
+            </div>
+        )
+    }
+
     render() {
         return (
             <header>
@@ -18,10 +50,7 @@ export class Header extends React.Component {
                     <img id='menu-dropdown' src={menuDropdownLogoURL}></img>
                     <img id='logo' src={cbiLogoURL}></img>
                 </div>
-                <div className='buttongroup' id='LoginSignupButtons'>
-                    <button>Login</button>
-                    <button>Sign Up</button>
-                </div>
+                {this.renderButtons()}
             </header>
         )
     }
