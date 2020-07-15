@@ -1,3 +1,14 @@
+.signup-form .hideCursor {
+  color: transparent;
+}
+
+.overlayDiv {
+  background-color: transparent;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+
 .signup-form{
     width: 300px;
     padding: 20px;
@@ -53,4 +64,3 @@
   .signup-form a:hover{
     background: rgba(0,0,0,.3);
   }
-  
