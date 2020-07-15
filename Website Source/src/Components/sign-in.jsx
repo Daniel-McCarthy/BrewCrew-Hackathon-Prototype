@@ -75,7 +75,13 @@ export class SignIn extends React.Component {
     onSubmit = () => {
         let url = new URL(document.URL);
         url.searchParams.set('l', 1);
-        location.href = url;
+
+        if (url.href === document.URL) {
+            window.location.reload();
+            scrollTo(0,0);
+        } else {
+            location.href = url;
+        }
     }
 
     render() {
@@ -87,7 +93,7 @@ export class SignIn extends React.Component {
                     <input id='nameInput'     type="text"     placeholder="Full Name"   className={"txtb"} onClick={this.fakeRegistration}></input>
                     <input id='emailInput'    type="email"    placeholder="Email"       className="txtb"></input>
                     <input id='passwordInput' type="password" placeholder="Password"    className="txtb"></input>
-                    <input id='submitButton' type="submit" value="Create Account" className="signup-btn" onClick={this.onSubmit}></input>
+                    <input id='submitButton' type="button" value="Create Account" className="signup-btn" onClick={this.onSubmit}></input>
                 </form>
 
                 <span id='nameOverlay' className='overlayDiv'>
