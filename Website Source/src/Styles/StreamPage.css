@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    clear: both;
+}
+  
+.row {
+    display: flex;
+}
+  
+  /* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;    
+    align-items: center;
+}
+
+.column img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+.past{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, .5);
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    padding-top: 0%;
+}
+
+.column p {
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bolder;
+      text-align: center;
+}
+
+h3, h2{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe{
+    width: 50%;
+    padding-left: 30px;
+    float: left;
+}
+
+.textaroni p{
+    color: white;
+    font-size: 14px;
+    width: auto;
+    text-align: center;
+}
+
+.textaroni{
+    width: 30%;
+    margin-left: auto;
+    margin-right: 130px;
+}
+
+#videoTest{
+    clear: both;
+}
