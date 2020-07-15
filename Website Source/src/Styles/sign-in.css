@@ -2,29 +2,37 @@
     width: 300px;
     padding: 20px;
     text-align: center;
-    background: url(../Images/wineshelf1.jpg);
-    opacity: 0.5;
+    background: url(../Images/wineshelf2.png);
     position: relative;
     overflow: hidden;
   }
+
   .signup-form h1{
     margin-top: 100px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     font-size: 40px;
   }
+
   .signup-form input{
     display: block;
     width: 100%;
     padding: 0 16px;
     height: 44px;
-    color: #ffffff;
+    color: white;
     text-align: center;
     box-sizing: border-box;
     outline: none;
     border: none;
     font-family: "montserrat",sans-serif;
   }
+
+
+  ::placeholder{
+  	color:white;
+  	opacity:1;
+  }
+
   .txtb{
     margin: 20px 0;
     background: rgba(0,0,0,.5);

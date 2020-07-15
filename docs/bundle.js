@@ -285,11 +285,11 @@ module.exports = exports;
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../Images/wineshelf1.jpg */ "./src/Images/wineshelf1.jpg");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../Images/wineshelf2.png */ "./src/Images/wineshelf2.png");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, ".signup-form{\r\n    width: 300px;\r\n    padding: 20px;\r\n    text-align: center;\r\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    opacity: 0.5;\r\n    position: relative;\r\n    overflow: hidden;\r\n  }\r\n  .signup-form h1{\r\n    margin-top: 100px;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    color: #fff;\r\n    font-size: 40px;\r\n  }\r\n  .signup-form input{\r\n    display: block;\r\n    width: 100%;\r\n    padding: 0 16px;\r\n    height: 44px;\r\n    color: #ffffff;\r\n    text-align: center;\r\n    box-sizing: border-box;\r\n    outline: none;\r\n    border: none;\r\n    font-family: \"montserrat\",sans-serif;\r\n  }\r\n  .txtb{\r\n    margin: 20px 0;\r\n    background: rgba(0,0,0,.5);\r\n    border-radius: 6px;\r\n  }\r\n  .signup-btn{\r\n    margin-top: 60px;\r\n    margin-bottom: 20px;\r\n    background: #487eb0;\r\n    color: #fff;\r\n    border-radius: 44px;\r\n    cursor: pointer;\r\n    transition: 0.8s;\r\n  }\r\n  .signup-btn:hover{\r\n    transform: scale(0.96);\r\n  }\r\n  .signup-form a{\r\n    text-decoration: none;\r\n    color: #fff;\r\n    font-family: \"montserrat\",sans-serif;\r\n    font-size: 14px;\r\n    padding: 10px;\r\n    transition: 0.8s;\r\n    display: block;\r\n  }\r\n  .signup-form a:hover{\r\n    background: rgba(0,0,0,.3);\r\n  }\r\n  \r\n", ""]);
+exports.push([module.i, ".signup-form{\r\n    width: 300px;\r\n    padding: 20px;\r\n    text-align: center;\r\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    position: relative;\r\n    overflow: hidden;\r\n  }\r\n\r\n  .signup-form h1{\r\n    margin-top: 100px;\r\n    font-family: Arial, Helvetica, sans-serif;\r\n    color: #fff;\r\n    font-size: 40px;\r\n  }\r\n\r\n  .signup-form input{\r\n    display: block;\r\n    width: 100%;\r\n    padding: 0 16px;\r\n    height: 44px;\r\n    color: white;\r\n    text-align: center;\r\n    box-sizing: border-box;\r\n    outline: none;\r\n    border: none;\r\n    font-family: \"montserrat\",sans-serif;\r\n  }\r\n\r\n\r\n  ::placeholder{\r\n  \tcolor:white;\r\n  \topacity:1;\r\n  }\r\n\r\n  .txtb{\r\n    margin: 20px 0;\r\n    background: rgba(0,0,0,.5);\r\n    border-radius: 6px;\r\n  }\r\n  .signup-btn{\r\n    margin-top: 60px;\r\n    margin-bottom: 20px;\r\n    background: #487eb0;\r\n    color: #fff;\r\n    border-radius: 44px;\r\n    cursor: pointer;\r\n    transition: 0.8s;\r\n  }\r\n  .signup-btn:hover{\r\n    transform: scale(0.96);\r\n  }\r\n  .signup-form a{\r\n    text-decoration: none;\r\n    color: #fff;\r\n    font-family: \"montserrat\",sans-serif;\r\n    font-size: 14px;\r\n    padding: 10px;\r\n    transition: 0.8s;\r\n    display: block;\r\n  }\r\n  .signup-form a:hover{\r\n    background: rgba(0,0,0,.3);\r\n  }\r\n  \r\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -6128,16 +6128,16 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/Images/wineshelf1.jpg":
+/***/ "./src/Images/wineshelf2.png":
 /*!***********************************!*\
-  !*** ./src/Images/wineshelf1.jpg ***!
+  !*** ./src/Images/wineshelf2.png ***!
   \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "87460e2efce443c269a0ed7d18981fcc.jpg");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "018095e2e049ae7a91a0e34a2153ccfa.png");
 
 /***/ }),
 
