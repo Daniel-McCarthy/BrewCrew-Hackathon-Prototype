@@ -35,8 +35,9 @@ export class WineSite extends React.Component {
                     <div id={'infoDiv'}>
                         <SignIn></SignIn>
                         <div id='introText'>
-                            <b className={'SingleLine'}>
-                                Welcome to Constellation Brands wine tasting broadcasts!<br/>
+                            <b className={'titleText'}>
+                                <div id = 'companyName'> Constellation Brands<br/></div>
+                                Wine Tasting Broadcasts<br/>
                             </b>
                             <a>
                                 We're hosting live events showing our fantastic selection of wines, and<br/>

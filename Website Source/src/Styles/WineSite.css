@@ -31,6 +31,34 @@ img {
     min-height: 100px;
 }
 
+#introText {
+    display: inline-block;
+    position: relative;
+    width: calc(100% - 340px);
+    padding-top: 5%;
+    height: 100%;
+    margin-bottom: auto;
+    text-align: center;
+    vertical-align: top;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.titleText {
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+    bottom: 375px;
+    right: 150px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 50px;
+    line-height: normal;
+}
+
+#companyName{
+    font-size: 30px;
+}
+
 .SingleLine {
     display: block;
     padding-bottom: 5px;
@@ -40,16 +68,7 @@ img {
     display: inline-block;
 }
 
-#introText {
-    display: inline-block;
-    position: relative;
-    width: calc(100% - 340px);
-    padding-top: 10%;
-    height: 100%;
-    margin-bottom: auto;
-    text-align: center;
-    vertical-align: top;
-}
+
 
 .parallax-background {
     background-attachment: fixed;
