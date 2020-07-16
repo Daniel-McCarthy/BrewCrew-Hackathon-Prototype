@@ -40,7 +40,6 @@
 }
 
 #ageVerificationForm input {
-    width: 30px;
     border-radius: 0;
     border: none;
     text-align: center;
@@ -50,14 +49,17 @@
     margin-top: 20px;
 }
 
+#ageVerificationForm .buttonContainer {
+    border: black 1px solid;
+}
+
 #ageVerificationForm form {
     margin-top: 10px;
-    border: black 1px solid;
     width: max-content;
     display: block;
 }
 
-#ageVerificationForm input {
+#ageVerificationForm input:not([type="submit"]) {
     width: 50px;
     height: 50px;
 }
@@ -66,7 +68,11 @@
     border-right: gray 1px dashed;
 }
 
-#ageVerificationForm button {
+#ageVerificationForm input[type="submit"] {
+    height: 50px;
+    width: 120px;
     margin-top: 15px;
+    width: 100px;
     background-color: rgb(93, 111, 189);
+    color: whitesmoke;
 }
