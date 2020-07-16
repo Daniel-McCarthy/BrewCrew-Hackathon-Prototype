@@ -13,15 +13,13 @@ export class Header extends React.Component {
     }
 
     simulateSignOut = () => {
-        let url = new URL(document.URL);
-        url.searchParams.delete('l');
-        location.href = url;
+        // Log out and return to home page.
+        this.props.onLoginStatusChange(false);
     }
 
     simulateSignIn = () => {
-        let url = new URL(document.URL);
-        url.searchParams.set('l', 1);
-        location.href = url;
+        this.props.onLoginStatusChange(true);
+        scrollTo(0,0);
     }
 
     renderNavButton = () => {
@@ -43,14 +41,14 @@ export class Header extends React.Component {
     }
 
     renderButtons = () => {
-        let currentURL = new URL(document.URL);
-        let loggedInParamVal = currentURL.searchParams.get('l');
-
-        if (loggedInParamVal === '1') {
+        if (this.props.isLoggedIn === true) {
             return (
                 <div className='buttongroup' id='LoginSignupButtons'>
                     {this.renderNavButton()}
-                    <button onClick={this.simulateSignOut}>Sign Out</button>
+
+                    <Link onClick={this.simulateSignOut} to={'/'} id='navButton' >
+                        <button>Sign Out</button>
+                    </Link>
                 </div>
             );
         }

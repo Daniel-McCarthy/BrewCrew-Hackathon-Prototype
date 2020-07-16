@@ -9,7 +9,12 @@ export class Site extends React.Component {
         super(props)
 
         this.state = {
+            isLoggedIn: false
         }
+    }
+
+    onLoginStatusChange = (isLoggedIn) => {
+        this.setState({isLoggedIn: isLoggedIn});
     }
 
     render() {
@@ -18,10 +23,10 @@ export class Site extends React.Component {
                 <div>
                     <Switch>
                         <Route exact path="/">
-                            <WineSite/>
+                            <WineSite isLoggedIn={this.state.isLoggedIn} onLoginStatusChange={this.onLoginStatusChange}/>
                         </Route>
                         <Route path="/Event">
-                            <StreamPage/>
+                            <StreamPage isLoggedIn={this.state.isLoggedIn} onLoginStatusChange={this.onLoginStatusChange}/>
                         </Route>
                     </Switch>
                 </div>

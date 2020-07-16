@@ -29,11 +29,11 @@ export class WineSite extends React.Component {
     render() {
         return (
             <div>
-                <Header></Header>
+                <Header isLoggedIn={this.props.isLoggedIn} onLoginStatusChange={this.props.onLoginStatusChange}/>
                 <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
                 <div className='parallax-background'>
                     <div id={'infoDiv'}>
-                        <SignIn></SignIn>
+                        <SignIn onLoginStatusChange={this.props.onLoginStatusChange}/>
                         <div id='introText'>
                             <b className={'SingleLine'}>
                                 Welcome to Constellation Brands wine tasting broadcasts!<br/>

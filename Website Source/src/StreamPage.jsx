@@ -15,7 +15,7 @@ export class StreamPage extends React.Component {
     render() {
         return (
             <div>
-                <Header></Header>
+                <Header isLoggedIn={this.props.isLoggedIn} onLoginStatusChange={this.props.onLoginStatusChange}/>
                     <div>
 
                     </div>

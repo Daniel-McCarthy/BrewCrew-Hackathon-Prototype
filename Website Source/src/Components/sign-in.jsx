@@ -73,15 +73,9 @@ export class SignIn extends React.Component {
     }
 
     onSubmit = () => {
-        let url = new URL(document.URL);
-        url.searchParams.set('l', 1);
-
-        if (url.href === document.URL) {
-            window.location.reload();
-            scrollTo(0,0);
-        } else {
-            location.href = url;
-        }
+        // Set to logged in and reload.
+        this.props.onLoginStatusChange(true);
+        scrollTo(0,0);
     }
 
     render() {
