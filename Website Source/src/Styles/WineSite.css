@@ -82,10 +82,3 @@ img {
     border-bottom: white 4px solid;
     margin-bottom: 300px;
 }
-
-/* Div for video embed testing */
-#VideoTest {
-    margin-top: 20px;
-    background-color: #000000a6;
-    color: whitesmoke;
-}

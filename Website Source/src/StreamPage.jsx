@@ -16,11 +16,8 @@ export class StreamPage extends React.Component {
         return (
             <div>
                 <Header isLoggedIn={this.props.isLoggedIn} onLoginStatusChange={this.props.onLoginStatusChange}/>
-                    <div>
 
-                    </div>
                     <div id={'VideoTest'}>
-                        <div>
                         <iframe 
                             width="500"
                             height="350"
@@ -28,20 +25,7 @@ export class StreamPage extends React.Component {
                             frameBorder="0"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen={true}
-                        ></iframe>
-                        </div>
-                        <div className={'textaroni'}>
-                            <h2>Happy Tasting</h2>
-                            <p>
-                                During such a confusing time we want to take some of the confusion away.
-                                <br/><br/>
-                                Come join us for a simple retreat into the grape vine filled gardens of our most prestigous wineries.
-                                <br/><br/>
-                                We look forward to welcoming newcomers of wine and wine consseuirs alike to our vast amount of products. During the event feel free to sip on the drinks exclusive to this winery
-                                <br/><br/>
-                                If you have any questions chime in with anything related to the process of wine making. Remember every glass of wine is WORTH REACHING FOR!
-                            </p>
-                        </div>
+                        ></iframe>  
                     </div>
                     <div className={'past'}>
                         <br/>
@@ -64,6 +48,19 @@ export class StreamPage extends React.Component {
                             <p>Clos Du Boid Winery</p>
                             </div>
                         </div>
+                    </div>
+
+                    <div className={'textaroni'}>
+                        <h2>Happy Tasting</h2>
+                        <p>
+                            During such a confusing time we want to take some of the confusion away.
+                            <br/><br/>
+                            Come join us for a simple retreat into the grape vine filled gardens of our most prestigous wineries.
+                            <br/><br/>
+                            We look forward to welcoming newcomers of wine and wine consseuirs alike to our vast amount of products. During the event feel free to sip on the drinks exclusive to this winery
+                            <br/><br/>
+                            If you have any questions chime in with anything related to the process of wine making. Remember every glass of wine is WORTH REACHING FOR!
+                        </p>
                     </div>
                 <Footer></Footer>
             </div>

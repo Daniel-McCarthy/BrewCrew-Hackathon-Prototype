@@ -28,6 +28,10 @@
     height: auto;
     padding: 15px;
     padding-top: 0%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border: wheat 2px solid;
+    border-top: none;
 }
 
 .column p {
@@ -39,14 +43,16 @@
 }
 
 h3, h2{
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 iframe{
+    position: relative;
+    display: inline-block;
     width: 50%;
-    padding-left: 30px;
-    float: left;
+    left: 25%;
 }
 
 .textaroni p{
@@ -57,11 +63,20 @@ iframe{
 }
 
 .textaroni{
-    width: 30%;
+    margin-top: 30px;
+    padding: 25px 40px 25px 40px;
+    width: 35%;
     margin-left: auto;
-    margin-right: 130px;
+    margin-right: auto;
+    background-color: rgb(53, 70, 146);
+    border: 2px white solid;
 }
 
-#videoTest{
+#VideoTest {
     clear: both;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: max-content;
+    display: inline-block;
 }
