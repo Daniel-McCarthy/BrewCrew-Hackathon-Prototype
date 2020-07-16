@@ -35,10 +35,10 @@ export class WineSite extends React.Component {
                     <div id={'infoDiv'}>
                         <SignIn></SignIn>
                         <div id='introText'>
-                            <b className={'titleText'}>
+                            <p className={'titleText'}>
                                 <div id = 'companyName'> Constellation Brands<br/></div>
-                                Wine Tasting Broadcasts<br/>
-                            </b>
+                                <div id = 'streamName'> <b>Wine Tasting Broadcasts<br/></b></div>
+                            </p>
                             <a>
                                 We're hosting live events showing our fantastic selection of wines, and<br/>
                                 engaging with our loyal wine enthusiasts! The tastings are on a regular<br/>
