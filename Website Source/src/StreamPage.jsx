@@ -4,6 +4,11 @@ import './Styles/StreamPage.css';
 import { Header } from './Components/Header.jsx'
 import { Footer } from './Components/Footer.jsx'
 
+import woodWine from './Images/wood.png';
+import prisonerWine from './Images/prisoner.png';
+import simiWine from './Images/simi.png';
+import closWine from './Images/clos.png';
+
 export class StreamPage extends React.Component {
     constructor(props) {
         super(props)
@@ -32,19 +37,19 @@ export class StreamPage extends React.Component {
                         <h3>Past Streams</h3>
                         <div className={"row"}>
                             <div className={"column"}>
-                            <img src="../Website Source/src/Images/wood.png" alt="Woodbridge Wine Bottle"/>
+                            <img src={woodWine} alt="Woodbridge Wine Bottle"/>
                             <p>Woodbridge Winery</p>
                             </div>
                             <div className={"column"}>
-                            <img src="../Website Source/src/Images/prisoner.png" alt="Prisoner Wine Company Wine Bottles"/>
+                            <img src={prisonerWine} alt="Prisoner Wine Company Wine Bottles"/>
                             <p>Prisoner Winery</p>
                             </div>
                             <div className={"column"}>
-                            <img src="../Website Source/src/Images/simi.png" alt="Simi Wine Bottles"/>
+                            <img src={simiWine} alt="Simi Wine Bottles"/>
                             <p>Simi Winery</p>
                             </div>
                             <div className={"column"}>
-                            <img src="../Website Source/src/Images/clos.png" alt="Clos Du Bois Wine Bottles"/>
+                            <img src={closWine} alt="Clos Du Bois Wine Bottles"/>
                             <p>Clos Du Boid Winery</p>
                             </div>
                         </div>
