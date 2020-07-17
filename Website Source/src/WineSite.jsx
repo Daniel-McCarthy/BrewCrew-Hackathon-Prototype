@@ -6,6 +6,7 @@ import { Footer } from './Components/Footer.jsx'
 import { SignIn } from './Components/sign-in.jsx'
 import { Slideshow } from './Components/Slideshow.jsx'
 import { Calendar } from './Components/Calendar.jsx'
+import { AgeVerification } from './Components/AgeVerification.jsx'
 
 // Slideshow Images
 import wineURL1 from './Images/alcoholic_beverage_beverage_blur_bokeh_champagne_close_up_depth_of_field_drink-1554619.jpeg';
@@ -29,11 +30,15 @@ export class WineSite extends React.Component {
     render() {
         return (
             <div>
-                <Header></Header>
+                {this.props.ageVerified
+                    ? null
+                    : <AgeVerification onAgeVerified={this.props.onAgeVerified} className={'disable'}/>}
+
+                <Header isLoggedIn={this.props.isLoggedIn} onLoginStatusChange={this.props.onLoginStatusChange}/>
                 <Slideshow height={400} images={this.state.slideShowImages} timeBetweenImageChanges={8}></Slideshow>
                 <div className='parallax-background'>
                     <div id={'infoDiv'}>
-                        <SignIn></SignIn>
+                        <SignIn onLoginStatusChange={this.props.onLoginStatusChange}/>
                         <div id='introText'>
                             <p className={'titleText'}>
                                 <div id = 'companyName'> Constellation Brands<br/></div>

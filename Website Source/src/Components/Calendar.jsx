@@ -31,9 +31,9 @@ export class Calendar extends React.Component {
 
     isEventDay = (dayNum, weekNum) => {
         // This is chosen arbitrarily for now, but we can adjust this for our future schedule.
-        // For now, it's every next Sunday
+        // For now, it's every next Sunday (just not the first week of the month)
 
-        if (dayNum === 0 && (weekNum % 2 == 0))
+        if (dayNum === 0 && (weekNum % 2 == 0 && weekNum != 0))
             return true;
 
         return false;

@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    clear: both;
+}
+  
+.row {
+    display: flex;
+}
+  
+  /* Create three equal columns that sits next to each other */
+.column {
+    flex: 33.33%;    
+    align-items: center;
+}
+
+.column img {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+.past{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, .5);
+    width: 80%;
+    height: auto;
+    padding: 15px;
+    padding-top: 0%;
+    border-bottom-left-radius: 8%;
+    border-bottom-right-radius: 8%;
+    border: wheat 2px solid;
+    border-top: none;
+}
+
+.column p {
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: bolder;
+      text-align: center;
+}
+
+h3, h2{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    left: 25%;
+}
+
+.textaroni p{
+    color: white;
+    font-size: 14px;
+    width: auto;
+    text-align: center;
+}
+
+.textaroni{
+    margin-top: 30px;
+    padding: 25px 40px 25px 40px;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(53, 70, 146);
+    border: 2px white solid;
+}
+
+#VideoTest {
+    clear: both;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    height: max-content;
+    display: inline-block;
+}
