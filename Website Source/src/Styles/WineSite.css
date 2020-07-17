@@ -80,49 +80,81 @@ img {
     font-weight: 600px;
 }
 
+.stuffContainer{
+    display: inline;
+    position: absolute;
+    left:48%;
+    top:180%;
+}
+
 #eventTitle{
     display: inline;
-    position: relative;
-    width:100px;
-    height: 400px;
-    left:640px;
-    bottom: 525px;
+    position: absolute;
+    width: max-content;
     font-size: 40px;
     color: #6F665D;
 }
 
 #eventName{
     display: inline;
-    position: relative;
-    width:100px;
-    height: 400px;
-    left:640px;
-    bottom: 525px;
+    position: absolute;
     font-size: 30px;
     color: #b69c60;
     font-family: sans-serif;
+    top:78px;
 }
 
 #eventDescription{
     display: inline;
-    position: relative;
-    width:100px;
-    height: 400px;
-    left:640px;
-    bottom: 525px;
+    position: absolute;
     font-size: 20px;
     color: black;
+    top: 150px;
 }
 
 #wineTitle{
     display: inline;
-    position: relative;
-    width:100px;
-    height: 400px;
-    left:640px;
-    bottom: 525px;
+    position: absolute;
+    width: max-content;
+    font-size: 40px;
+    color: #6F665D;
+    top:230px;
+}
+
+#wineName{
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    color: #b69c60;
+    font-family: sans-serif;
+    top:310px;
+}
+
+#wineDescription{
+    display: inline;
+    position: absolute;
     font-size: 20px;
     color: black;
+    top:385px;
+}
+
+#wineBottle{
+    display: inline;
+    position: absolute;
+    width: 100px;
+    height: 333px;
+    right:40px;
+    top: 1275px;
+    background-image: url('../Images/simi-sauvignon-blanc.png');
+    background-size: cover;
+}
+
+#exitLink{
+    display: inline;
+    position: absolute;
+    left: 48%;
+    top: 1580px;
+    font-size: 18px;
 }
 
 .SingleLine {

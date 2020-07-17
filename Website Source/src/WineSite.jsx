@@ -55,6 +55,7 @@ export class WineSite extends React.Component {
                     <Calendar></Calendar>
                 </div>
 
+                <div class='stuffContainer'>
                 <h2 id='eventTitle'>
                     Upcoming Events<br/>
                 </h2>
@@ -71,10 +72,16 @@ export class WineSite extends React.Component {
                     Wine of The Month<br/>
                 </h2>
 
-                <p id='wineDescription'>
-                    This month's Wine of the Month is 
+                <p id='wineName'>
+                    Simi - Winemaker's Select Lot<br/>No.55 Sauvignon Blanc<br/>
                 </p>
 
+                <p id='wineDescription'>
+                    "This brilliantly clear, pale-straw-colored Sauvignon Blanc <br/>is fresh, bright, and crisp. The wine opens with complex <br/>aromas of lime zest, Meyer lemon, pink grapefruit, <br/>lemongrass, freshly cut hay, honeysuckle, and a hint <br/>of wet stone." - Simi
+                </p>
+                </div>
+                <a href="https://www.bottlecollective.com/product/2018-simi-winemakers-select-lot-no-55-sauvignon-blanc-sonoma-valley" id='wineBottle'></a>
+                <a href="https://www.bottlecollective.com/product/2018-simi-winemakers-select-lot-no-55-sauvignon-blanc-sonoma-valley" id='exitLink'>Click here to order this bottle right to your door!</a>
                 <div id='calendarSpacer'></div>
                 <Footer></Footer>
             </div>
