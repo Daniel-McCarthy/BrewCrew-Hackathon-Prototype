@@ -172,7 +172,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\r\np {\r\n    font-size: 46px;\r\n    width: max-content;\r\n    margin: auto auto auto auto;\r\n    color: #001347\r\n}\r\n\r\n.calendar {\r\n    width: 100%;\r\n}\r\n\r\n.calendarHeader {\r\n    background-color: #042377;\r\n    border-top: white 2px solid;\r\n    padding-top: 25px;\r\n    padding-bottom: 25px;\r\n}\r\n\r\n.calendarHeader p {\r\n    text-align: center;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n\r\n    color: whitesmoke;\r\n    font-family: 'Candal';\r\n}\r\n\r\n.headerMonth {\r\n    display: block;\r\n}\r\n\r\n.headerDay {\r\n    font-size: 46px;\r\n}\r\n\r\n.calendarDayContainer {\r\n    background-color: rgb(241, 241, 241);\r\n    padding-bottom: 50px;\r\n    border-bottom: white 2px solid;\r\n}\r\n\r\n.tableContainer {\r\n    width: max-content;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.dayHeaderContainer {\r\n    padding-top: 20px;\r\n    width: max-content;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.dayHeader {\r\n    display: inline-block;\r\n    width: 150px;\r\n}\r\n\r\n.dayHeader p {\r\n    vertical-align: bottom;\r\n    padding-bottom: 10px;\r\n}\r\n\r\n.calendarDay {\r\n    display: inline-flex;\r\n    box-sizing: border-box;\r\n    padding: 10px 10px 10px 10px;\r\n    border: 2px rgb(175, 175, 175) solid;\r\n    width: 150px;\r\n    height:150px;\r\n}\r\n\r\n.calendarDay:not(:last-child) {\r\n    /* Don't double up borders */\r\n    border-right: none;\r\n}\r\n\r\n.calendarWeek:not(:last-child) .calendarDay {\r\n    /* Don't double up borders */\r\n    border-bottom: none;\r\n}\r\n\r\n.currentMonth {\r\n    background-color: white;\r\n}\r\n\r\n.currentDay {\r\n    background-color: rgb(234, 230, 253);\r\n}\r\n\r\n.eventDay p {\r\n    border-bottom: rgb(163, 17, 17) 3px solid;\r\n    border-radius: 5%;\r\n}\r\n\r\n.differentMonth {\r\n    background-color: rgb(223, 223, 223);\r\n}\r\n\r\n.differentMonth p {\r\n    color:#4c5b83;\r\n    border-color: rgb(105, 47, 47);\r\n}", ""]);
+exports.push([module.i, "\r\np {\r\n    font-size: 25px;\r\n    width: max-content;\r\n    margin: auto auto auto auto;\r\n    color: #001347\r\n}\r\n\r\n.calendar {\r\n    width: 45%;\r\n}\r\n\r\n.calendarHeader {\r\n    background-color: #042377;\r\n    border-top: white 2px solid;\r\n    padding-top: 25px;\r\n    padding-bottom: 25px;\r\n}\r\n\r\n.calendarHeader p {\r\n    text-align: center;\r\n    margin-top: 0;\r\n    margin-bottom: 0;\r\n\r\n    color: whitesmoke;\r\n    font-family: 'Candal';\r\n}\r\n\r\n.headerMonth {\r\n    display: block;\r\n}\r\n\r\n.headerDay {\r\n    font-size: 30px;\r\n}\r\n\r\n.calendarDayContainer {\r\n    background-color: rgb(241, 241, 241);\r\n    padding-bottom: 50px;\r\n    border-bottom: white 2px solid;\r\n}\r\n\r\n.tableContainer {\r\n    width: max-content;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.dayHeaderContainer {\r\n    padding-top: 20px;\r\n    width: max-content;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.dayHeader {\r\n    display: inline-block;\r\n    width: 70px;\r\n}\r\n\r\n.dayHeader p {\r\n    vertical-align: bottom;\r\n    padding-bottom: 10px;\r\n}\r\n\r\n.calendarDay {\r\n    display: inline-flex;\r\n    box-sizing: border-box;\r\n    padding: 10px 10px 10px 10px;\r\n    border: 2px rgb(175, 175, 175) solid;\r\n    width: 70px;\r\n    height:70px;\r\n}\r\n\r\n.calendarDay:not(:last-child) {\r\n    /* Don't double up borders */\r\n    border-right: none;\r\n}\r\n\r\n.calendarWeek:not(:last-child) .calendarDay {\r\n    /* Don't double up borders */\r\n    border-bottom: none;\r\n}\r\n\r\n.currentMonth {\r\n    background-color: white;\r\n}\r\n\r\n.currentDay {\r\n    background-color: rgb(234, 230, 253);\r\n}\r\n\r\n.eventDay p {\r\n    border-bottom: rgb(163, 17, 17) 3px solid;\r\n    border-radius: 5%;\r\n}\r\n\r\n.differentMonth {\r\n    background-color: rgb(223, 223, 223);\r\n}\r\n\r\n.differentMonth p {\r\n    color:#4c5b83;\r\n    border-color: rgb(105, 47, 47);\r\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -189,11 +189,11 @@ module.exports = exports;
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../Images/wine-vineyard-landscape-horizon-nature-farm.jpg */ "./src/Images/wine-vineyard-landscape-horizon-nature-farm.jpg");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../Images/vineyard.jpg */ "./src/Images/vineyard.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "footer {\r\n    background-color: rgb(32, 32, 32);\r\n    border-top: black 6px solid;\r\n    \r\n    margin-top: 100px;\r\n    height: 500px;\r\n    display: flex;\r\n\r\n    /* Parallax background */\r\n    background-attachment: fixed;\r\n    background-position: top;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\nfooter p, footer a {\r\n    color: whitesmoke;\r\n    vertical-align: middle;\r\n    height: max-content;\r\n    margin-top: auto;\r\n    margin-bottom: auto;\r\n}\r\n\r\nfooter p {\r\n    display: inline-flex;\r\n    font-size: 48px;\r\n    font-family: cursive;\r\n}\r\n\r\nfooter a {\r\n    margin-right: auto;\r\n    margin-left: 10px;\r\n    margin-right: 0;\r\n    font-size: 32px;\r\n    font-family: monospace;\r\n}\r\n\r\nfooter div {\r\n    text-align: center;\r\n    vertical-align: middle;\r\n    height: max-content;\r\n    margin: auto;\r\n}", ""]);
+exports.push([module.i, "footer {\r\n    background-color: rgb(32, 32, 32);\r\n    border-top: black 3px solid;\r\n    height: 500px;\r\n    display: flex;\r\n\r\n    /* Parallax background */\r\n    background-attachment: fixed;\r\n    background-position: top;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\nfooter p, footer a {\r\n    color: whitesmoke;\r\n    vertical-align: middle;\r\n    height: max-content;\r\n    margin-top: auto;\r\n    margin-bottom: auto;\r\n}\r\n\r\nfooter p {\r\n    display: inline-flex;\r\n    font-size: 48px;\r\n    font-family: inherit;\r\n    color: black;\r\n}\r\n\r\nfooter a {\r\n    margin-right: auto;\r\n    margin-left: 10px;\r\n    margin-right: 0;\r\n    font-size: 32px;\r\n    font-family: monospace;\r\n    color: black;\r\n}\r\n\r\nfooter div {\r\n    text-align: center;\r\n    vertical-align: middle;\r\n    height: max-content;\r\n    line-height: 50px;\r\n    margin: auto;\r\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -268,7 +268,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../Images/wine_vinor
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "\r\n\r\nbody {\r\n    background: #415488;\r\n    margin: 0;\r\n}\r\n\r\n$body-font: (\r\n  'name': 'freight-text-pro',\r\n  'stack': (\r\n    'Baskerville',\r\n    'Palatino',\r\n    'Cambria',\r\n    'Georgia',\r\n    'serif',\r\n  ),\r\n  'source': 'https://fonts.adobe.com/fonts/freight-text',\r\n);\r\n\r\n.Centered {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    width: max-content;\r\n}\r\n\r\n/* Signup and Introductory Section */\r\n\r\n#WelcomingLabel {\r\n    color: white;\r\n    font-size: 32px;\r\n}\r\n\r\nimg {\r\n    padding: 10px;\r\n    border-radius: 15px;\r\n    outline-color: white;\r\n    outline-width: 2px;\r\n}\r\n\r\n#infoDiv {\r\n    background-color: #000000a6;\r\n    color: whitesmoke;\r\n    width: 100%;\r\n    min-height: 100px;\r\n}\r\n\r\n#introText {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: calc(100% - 340px);\r\n    padding-top: 1%;\r\n    height: 100%;\r\n    margin-bottom: auto;\r\n    text-align: center;\r\n    vertical-align: top;\r\n    font-size: 20px;\r\n    line-height: 40px;\r\n}\r\n\r\n.titleText {\r\n    display: block;\r\n    padding-bottom: 5px;\r\n    position: relative;\r\n    bottom: 300px;\r\n    right: 150px;\r\n    font-size: 60px;\r\n    line-height: normal;\r\n    color: white;\r\n}\r\n\r\n#companyName{\r\n    font-size: 35px;\r\n}\r\n\r\n#streamName{\r\n    line-height: 100px;\r\n    font-family: freight-text-pro, Baskerville, Palatino, Cambria, Georgia, serif;\r\n    font-style: italic;\r\n}\r\n\r\n.SingleLine {\r\n    display: block;\r\n    padding-bottom: 5px;\r\n}\r\n\r\n.signup-form {\r\n    display: inline-block;\r\n}\r\n\r\n\r\n\r\n.parallax-background {\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\n/* Calendar Section */\r\n\r\n#calendarContainer {\r\n    width: 100%;\r\n}\r\n\r\n#calendarContainer .scheduleLabel {\r\n    color: whitesmoke;\r\n    /* font-family: \"Lucida Console\", Monaco, monospace; */\r\n    font-family: 'Candal';\r\n    font-size: 32px;\r\n\r\n    margin-top: 120px;\r\n    margin-bottom: 120px;\r\n}\r\n\r\n#calendarSpacer {\r\n    height: 6px;\r\n    background-color: grey;\r\n    border-bottom: white 4px solid;\r\n    margin-bottom: 75px;\r\n}\r\n\r\n/* Div for video embed testing */\r\n#VideoTest {\r\n    margin-top: 20px;\r\n    background-color: #000000a6;\r\n    color: whitesmoke;\r\n}", ""]);
+exports.push([module.i, "\r\n\r\nbody {\r\n    background: #EBDDC0;\r\n    margin: 0;\r\n}\r\n\r\n$body-font: (\r\n  'name': 'freight-text-pro',\r\n  'stack': (\r\n    'Baskerville',\r\n    'Palatino',\r\n    'Cambria',\r\n    'Georgia',\r\n    'serif',\r\n  ),\r\n  'source': 'https://fonts.adobe.com/fonts/freight-text',\r\n);\r\n\r\n.Centered {\r\n    display: block;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    width: max-content;\r\n}\r\n\r\n/* Signup and Introductory Section */\r\n\r\n#WelcomingLabel {\r\n    color: white;\r\n    font-size: 32px;\r\n}\r\n\r\nimg {\r\n    padding: 10px;\r\n    border-radius: 15px;\r\n    outline-color: white;\r\n    outline-width: 2px;\r\n}\r\n\r\n#infoDiv {\r\n    background-color: #000000a6;\r\n    color: whitesmoke;\r\n    width: 100%;\r\n    min-height: 100px;\r\n}\r\n\r\n#introText {\r\n    display: inline-block;\r\n    position: relative;\r\n    width: calc(100% - 340px);\r\n    padding-top: 1%;\r\n    height: 100%;\r\n    margin-bottom: auto;\r\n    text-align: center;\r\n    vertical-align: top;\r\n    font-size: 20px;\r\n    line-height: 40px;\r\n}\r\n\r\n.titleText {\r\n    display: block;\r\n    padding-bottom: 5px;\r\n    position: relative;\r\n    bottom: 300px;\r\n    right: 150px;\r\n    font-size: 60px;\r\n    line-height: normal;\r\n    color: white;\r\n}\r\n\r\n#companyName{\r\n    font-size: 35px;\r\n}\r\n\r\n#streamName{\r\n    line-height: 100px;\r\n    font-family: freight-text-pro, Baskerville, Palatino, Cambria, Georgia, serif;\r\n    font-style: italic;\r\n}\r\n\r\n.SingleLine {\r\n    display: block;\r\n    padding-bottom: 5px;\r\n}\r\n\r\n.signup-form {\r\n    display: inline-block;\r\n}\r\n\r\n\r\n\r\n.parallax-background {\r\n    background-attachment: fixed;\r\n    background-position: center;\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n}\r\n\r\n/* Calendar Section */\r\n\r\n#calendarContainer {\r\n    width: 100%;\r\n}\r\n\r\n#calendarContainer .scheduleLabel {\r\n    color: whitesmoke;\r\n    /* font-family: \"Lucida Console\", Monaco, monospace; */\r\n    font-family: 'Candal';\r\n    font-size: 32px;\r\n\r\n    margin-top: 120px;\r\n    margin-bottom: 120px;\r\n}\r\n\r\n#calendarSpacer {\r\n    height: 6px;\r\n    background-color: grey;\r\n    border-bottom: white 4px solid;\r\n    margin-bottom: 75px;\r\n}\r\n\r\n/* Div for video embed testing */\r\n#VideoTest {\r\n    margin-top: 20px;\r\n    background-color: #000000a6;\r\n    color: whitesmoke;\r\n}", ""]);
 // Exports
 module.exports = exports;
 
@@ -6063,6 +6063,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/Images/vineyard.jpg":
+/*!*********************************!*\
+  !*** ./src/Images/vineyard.jpg ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "297648a2a6567715da9e6be63b75f6c9.jpg");
+
+/***/ }),
+
 /***/ "./src/Images/wine-sun-silhouette-vine-grape-vintage-vineyards-alcohol-red.jpg":
 /*!*************************************************************************************!*\
   !*** ./src/Images/wine-sun-silhouette-vine-grape-vintage-vineyards-alcohol-red.jpg ***!
@@ -6073,19 +6086,6 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "e6c1b25d999c559f10bfcdf80b1de400.jpg");
-
-/***/ }),
-
-/***/ "./src/Images/wine-vineyard-landscape-horizon-nature-farm.jpg":
-/*!********************************************************************!*\
-  !*** ./src/Images/wine-vineyard-landscape-horizon-nature-farm.jpg ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "0efe72831d33227156155f723b163af3.jpg");
 
 /***/ }),
 
@@ -6605,35 +6605,9 @@ var WineSite = /*#__PURE__*/function (_React$Component) {
         id: "streamName"
       }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("b", null, "Wine Tasting Broadcasts", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null)))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("a", null, "We're hosting live events showing our fantastic selection of wines, and", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null), "engaging with our loyal wine enthusiasts! The tastings are on a regular", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null), "schedule to share insight on our variety of wines. Our Drink Night trivia", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null), "keeps viewers informed & engaged! Our wines are found in stores across", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null), "the country, so join in on the fun and share your time with us. Sign up to", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null), "get access to our broadcasts and get notified about upcoming streams! Enjoy!", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("br", null))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
         id: "calendarContainer"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("p", {
-        className: "Centered scheduleLabel"
-      }, "Event Schedule"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_Components_Calendar_jsx__WEBPACK_IMPORTED_MODULE_6__["Calendar"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_Components_Calendar_jsx__WEBPACK_IMPORTED_MODULE_6__["Calendar"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
         id: "calendarSpacer"
-      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-        id: 'VideoTest',
-        className: 'Centered'
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("b", {
-        className: 'SingleLine'
-      }, "Video Test"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("iframe", {
-        width: "560",
-        height: "315",
-        src: "https://www.youtube.com/embed/Bfz_Ij1ktsw?controls=0",
-        frameBorder: "0",
-        allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
-        allowFullScreen: true
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", {
-        id: 'VideoTest',
-        className: 'Centered'
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("b", {
-        className: 'SingleLine'
-      }, "Stream Test"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("iframe", {
-        src: "https://player.twitch.tv/?video=662525681&parent=daniel-mccarthy.github.io",
-        frameBorder: "0",
-        allowFullScreen: true,
-        scrolling: "no",
-        width: "560",
-        height: "315"
-      })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_Components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["Footer"], null));
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_Components_Footer_jsx__WEBPACK_IMPORTED_MODULE_3__["Footer"], null));
     }
   }]);
 

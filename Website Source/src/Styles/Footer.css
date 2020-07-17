@@ -1,8 +1,6 @@
 footer {
     background-color: rgb(32, 32, 32);
-    border-top: black 6px solid;
-    
-    margin-top: 100px;
+    border-top: black 3px solid;
     height: 500px;
     display: flex;
 
@@ -11,7 +9,7 @@ footer {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../Images/wine-vineyard-landscape-horizon-nature-farm.jpg');
+    background-image: url('../Images/vineyard.jpg');
 }
 
 footer p, footer a {
@@ -25,7 +23,8 @@ footer p, footer a {
 footer p {
     display: inline-flex;
     font-size: 48px;
-    font-family: cursive;
+    font-family: inherit;
+    color: black;
 }
 
 footer a {
@@ -34,11 +33,13 @@ footer a {
     margin-right: 0;
     font-size: 32px;
     font-family: monospace;
+    color: black;
 }
 
 footer div {
     text-align: center;
     vertical-align: middle;
     height: max-content;
+    line-height: 50px;
     margin: auto;
 }

@@ -52,41 +52,10 @@ export class WineSite extends React.Component {
                 </div>
 
                 <div id='calendarContainer'>
-                    <p className='Centered scheduleLabel'>
-                        Event Schedule
-                    </p>
                     <Calendar></Calendar>
                 </div>
 
                 <div id='calendarSpacer'></div>
-
-                <div id={'VideoTest'} className={'Centered'}>
-                    <b className={'SingleLine'}>
-                        Video Test
-                    </b>
-                    <iframe 
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/Bfz_Ij1ktsw?controls=0"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen={true}
-                    ></iframe>
-                </div>
-
-                <div id={'VideoTest'} className={'Centered'}>
-                    <b className={'SingleLine'}>
-                        Stream Test
-                    </b>
-                    <iframe
-                        src="https://player.twitch.tv/?video=662525681&parent=daniel-mccarthy.github.io"
-                        frameBorder="0"
-                        allowFullScreen={true}
-                        scrolling="no"
-                        width="560"
-                        height="315"
-                    ></iframe>
-                </div>
                 <Footer></Footer>
             </div>
         )

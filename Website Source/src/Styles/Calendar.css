@@ -1,13 +1,13 @@
 
 p {
-    font-size: 46px;
+    font-size: 25px;
     width: max-content;
     margin: auto auto auto auto;
     color: #001347
 }
 
 .calendar {
-    width: 100%;
+    width: 45%;
 }
 
 .calendarHeader {
@@ -31,7 +31,7 @@ p {
 }
 
 .headerDay {
-    font-size: 46px;
+    font-size: 30px;
 }
 
 .calendarDayContainer {
@@ -55,7 +55,7 @@ p {
 
 .dayHeader {
     display: inline-block;
-    width: 150px;
+    width: 70px;
 }
 
 .dayHeader p {
@@ -68,8 +68,8 @@ p {
     box-sizing: border-box;
     padding: 10px 10px 10px 10px;
     border: 2px rgb(175, 175, 175) solid;
-    width: 150px;
-    height:150px;
+    width: 70px;
+    height:70px;
 }
 
 .calendarDay:not(:last-child) {
