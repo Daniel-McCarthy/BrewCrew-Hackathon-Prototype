@@ -195,8 +195,6 @@ img {
 #calendarSpacer {
     height: 6px;
     background-color: grey;
-    border-bottom: white 4px solid;
-    margin-bottom: 75px;
 }
 
 /* Div for video embed testing */
