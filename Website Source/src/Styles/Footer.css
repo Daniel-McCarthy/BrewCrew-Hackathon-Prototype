@@ -1,8 +1,6 @@
 footer {
     background-color: rgb(32, 32, 32);
     border-top: black 6px solid;
-    
-    margin-top: 100px;
     height: 500px;
     display: flex;
 

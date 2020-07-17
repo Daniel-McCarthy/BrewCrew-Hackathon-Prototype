@@ -68,7 +68,7 @@ iframe{
     width: 35%;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(53, 70, 146);
+    background-color: rgb(53, 70, 146, .8);
     border: 2px white solid;
 }
 
@@ -79,4 +79,12 @@ iframe{
     width: 100%;
     height: max-content;
     display: inline-block;
+}
+
+.collage{
+    background-image: url(../Images/collage.png);
+    width: 1280px;
+    height: 960;
+    margin-left: auto;
+    margin-right: auto;
 }
