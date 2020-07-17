@@ -77,6 +77,52 @@ img {
     line-height: 100px;
     font-family: freight-text-pro, Baskerville, Palatino, Cambria, Georgia, serif;
     font-style: italic;
+    font-weight: 600px;
+}
+
+#eventTitle{
+    display: inline;
+    position: relative;
+    width:100px;
+    height: 400px;
+    left:640px;
+    bottom: 525px;
+    font-size: 40px;
+    color: #6F665D;
+}
+
+#eventName{
+    display: inline;
+    position: relative;
+    width:100px;
+    height: 400px;
+    left:640px;
+    bottom: 525px;
+    font-size: 30px;
+    color: #b69c60;
+    font-family: sans-serif;
+}
+
+#eventDescription{
+    display: inline;
+    position: relative;
+    width:100px;
+    height: 400px;
+    left:640px;
+    bottom: 525px;
+    font-size: 20px;
+    color: black;
+}
+
+#wineTitle{
+    display: inline;
+    position: relative;
+    width:100px;
+    height: 400px;
+    left:640px;
+    bottom: 525px;
+    font-size: 20px;
+    color: black;
 }
 
 .SingleLine {

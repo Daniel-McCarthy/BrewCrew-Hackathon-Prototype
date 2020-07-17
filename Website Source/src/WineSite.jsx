@@ -55,6 +55,26 @@ export class WineSite extends React.Component {
                     <Calendar></Calendar>
                 </div>
 
+                <h2 id='eventTitle'>
+                    Upcoming Events<br/>
+                </h2>
+
+                <p id='eventName'>
+                    Sunday, July 12 - Corvo Attano -<br/>Cooking with Corvo<br/>
+                </p>
+
+                <p id='eventDescription'>
+                    Join us this month as prolific chef Corvo Attano, author of <br/>"Delicious Things for your Stomach", walks us through a live preparation of <br/>some of his favourite dishes that either pair well with, or utilize our <br/>Wine of the Month (see below)!
+                </p>
+
+                <h2 id='wineTitle'>
+                    Wine of The Month<br/>
+                </h2>
+
+                <p id='wineDescription'>
+                    This month's Wine of the Month is 
+                </p>
+
                 <div id='calendarSpacer'></div>
                 <Footer></Footer>
             </div>
