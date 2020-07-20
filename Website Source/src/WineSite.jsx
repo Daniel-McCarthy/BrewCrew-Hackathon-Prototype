@@ -40,10 +40,10 @@ export class WineSite extends React.Component {
                     <div id={'infoDiv'}>
                         <SignIn onLoginStatusChange={this.props.onLoginStatusChange}/>
                         <div id='introText'>
-                            <p className={'titleText'}>
+                            <div className={'titleText'}>
                                 <div id = 'companyName'> Constellation Brands<br/></div>
                                 <div id = 'streamName'> <b>Wine Tasting Broadcasts<br/></b></div>
-                            </p>
+                            </div>
                             <a>
                                 We're hosting live events showing our fantastic selection of wines, and<br/>
                                 engaging with our loyal wine enthusiasts! The tastings are on a regular<br/>
@@ -60,7 +60,7 @@ export class WineSite extends React.Component {
                     <Calendar></Calendar>
                 </div>
 
-                <div class='stuffContainer'>
+                <div className='stuffContainer'>
                     <h2 id='eventTitle'>
                         Upcoming Events<br/>
                     </h2>
