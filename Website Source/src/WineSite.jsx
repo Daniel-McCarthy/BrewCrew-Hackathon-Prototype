@@ -61,29 +61,29 @@ export class WineSite extends React.Component {
                 </div>
 
                 <div class='stuffContainer'>
-                <h2 id='eventTitle'>
-                    Upcoming Events<br/>
-                </h2>
+                    <h2 id='eventTitle'>
+                        Upcoming Events<br/>
+                    </h2>
 
-                <p id='eventName'>
-                    Sunday, July 12 - Corvo Attano -<br/>Cooking with Corvo<br/>
-                </p>
+                    <p id='eventName'>
+                        Sunday, July 12 - Corvo Attano -<br/>Cooking with Corvo<br/>
+                    </p>
 
-                <p id='eventDescription'>
-                    Join us this month as prolific chef Corvo Attano, author of <br/>"Delicious Things for your Stomach", walks us through a live preparation of <br/>some of his favourite dishes that either pair well with, or utilize our <br/>Wine of the Month (see below)!
-                </p>
+                    <p id='eventDescription'>
+                        Join us this month as prolific chef Corvo Attano, author of <br/>"Delicious Things for your Stomach", walks us through a live preparation of <br/>some of his favourite dishes that either pair well with, or utilize our <br/>Wine of the Month (see below)!
+                    </p>
 
-                <h2 id='wineTitle'>
-                    Wine of The Month<br/>
-                </h2>
+                    <h2 id='wineTitle'>
+                        Wine of The Month<br/>
+                    </h2>
 
-                <p id='wineName'>
-                    Simi - Winemaker's Select Lot<br/>No.55 Sauvignon Blanc<br/>
-                </p>
+                    <p id='wineName'>
+                        Simi - Winemaker's Select Lot<br/>No.55 Sauvignon Blanc<br/>
+                    </p>
 
-                <p id='wineDescription'>
-                    "This brilliantly clear, pale-straw-colored Sauvignon Blanc <br/>is fresh, bright, and crisp. The wine opens with complex <br/>aromas of lime zest, Meyer lemon, pink grapefruit, <br/>lemongrass, freshly cut hay, honeysuckle, and a hint <br/>of wet stone." - Simi
-                </p>
+                    <p id='wineDescription'>
+                        "This brilliantly clear, pale-straw-colored Sauvignon Blanc <br/>is fresh, bright, and crisp. The wine opens with complex <br/>aromas of lime zest, Meyer lemon, pink grapefruit, <br/>lemongrass, freshly cut hay, honeysuckle, and a hint <br/>of wet stone." - Simi
+                    </p>
                 </div>
                 <a href="https://www.bottlecollective.com/product/2018-simi-winemakers-select-lot-no-55-sauvignon-blanc-sonoma-valley" id='wineBottle'></a>
                 <a href="https://www.bottlecollective.com/product/2018-simi-winemakers-select-lot-no-55-sauvignon-blanc-sonoma-valley" id='exitLink'>Click here to order this bottle right to your door!</a>
