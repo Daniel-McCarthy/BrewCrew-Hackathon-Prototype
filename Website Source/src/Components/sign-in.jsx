@@ -6,6 +6,9 @@ export class SignIn extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
+            namePlaceholder: 'Full Name',
+            emailPlaceholder: 'Email',
+            passwordPlaceholder: 'Password'
         }
     }
 
@@ -84,9 +87,9 @@ export class SignIn extends React.Component {
                 <form>
                     <h1>Sign Up</h1>
                     <a href="#">Already Have one ?</a>
-                    <input id='nameInput'     type="text"     placeholder={this.namePlaceholder}        className={"txtb"} onClick={this.fakeRegistration}></input>
-                    <input id='emailInput'    type="email"    placeholder={this.emailPlaceholder}       className="txtb"></input>
-                    <input id='passwordInput' type="password" placeholder={this.passwordPlaceholder}    className="txtb"></input>
+                    <input id='nameInput'     type="text"     placeholder={this.state.namePlaceholder}        className={"txtb"} onClick={this.fakeRegistration}></input>
+                    <input id='emailInput'    type="email"    placeholder={this.state.emailPlaceholder}       className="txtb"></input>
+                    <input id='passwordInput' type="password" placeholder={this.state.passwordPlaceholder}    className="txtb"></input>
                     <input id='submitButton' type="button" value="Create Account" className="signup-btn" onClick={this.onSubmit}></input>
                 </form>
 
