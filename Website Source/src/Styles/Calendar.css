@@ -36,8 +36,8 @@ p {
 
 .calendarDayContainer {
     background-color: rgb(241, 241, 241);
-    padding-bottom: 50px;
-    border-bottom: white 2px solid;
+    padding-bottom: 70px;
+    border-bottom: white 3px solid;
 }
 
 .tableContainer {

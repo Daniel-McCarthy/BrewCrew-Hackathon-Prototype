@@ -81,16 +81,18 @@ img {
     font-weight: 600px;
 }
 
-.stuffContainer{
-    display: inline;
-    position: absolute;
-    left:48%;
-    top:180%;
+/* Wine Event Styles */
+
+.wineEventText{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    margin-left: 40px;
 }
 
 #eventTitle{
-    display: inline;
-    position: absolute;
+    margin-top: 10px;
+    margin-bottom: 0px;
     width: max-content;
     font-size: 40px;
     color: #6F665D;
@@ -98,7 +100,7 @@ img {
 
 #eventName{
     display: inline;
-    position: absolute;
+    /* position: absolute; */
     font-size: 30px;
     color: #b69c60;
     font-family: sans-serif;
@@ -107,15 +109,14 @@ img {
 
 #eventDescription{
     display: inline;
-    position: absolute;
     font-size: 20px;
     color: black;
     top: 150px;
 }
 
 #wineTitle{
-    display: inline;
-    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 0px;
     width: max-content;
     font-size: 40px;
     color: #6F665D;
@@ -124,7 +125,6 @@ img {
 
 #wineName{
     display: inline;
-    position: absolute;
     font-size: 30px;
     color: #b69c60;
     font-family: sans-serif;
@@ -132,15 +132,16 @@ img {
 }
 
 #wineDescription{
-    display: inline;
-    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: inline-block;
     font-size: 20px;
     color: black;
     top:385px;
 }
 
 #wineBottle{
-    display: inline;
+    display: inline-block;
     position: absolute;
     width: 100px;
     height: 333px;
@@ -151,11 +152,9 @@ img {
 }
 
 #exitLink{
-    display: inline;
-    position: absolute;
-    left: 48%;
-    top: 1580px;
-    font-size: 18px;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
 }
 
 .SingleLine {
@@ -178,6 +177,10 @@ img {
 }
 
 /* Calendar Section */
+
+.calendar {
+    float: left;
+}
 
 #calendarContainer {
     width: 100%;

@@ -60,7 +60,7 @@ export class WineSite extends React.Component {
                     <Calendar></Calendar>
                 </div>
 
-                <div className='stuffContainer'>
+                <div className='wineEventText'>
                     <h2 id='eventTitle'>
                         Upcoming Events<br/>
                     </h2>
@@ -70,7 +70,7 @@ export class WineSite extends React.Component {
                     </p>
 
                     <p id='eventDescription'>
-                        Join us this month as prolific chef Corvo Attano, author of <br/>"Delicious Things for your Stomach", walks us through a live preparation of <br/>some of his favourite dishes that either pair well with, or utilize our <br/>Wine of the Month (see below)!
+                        Join us this month as prolific chef Corvo Attano, author of <br/>"Delicious Things for your Stomach", walks us through a live preparation of <br/>some of his favourite dishes that either pair well with, or utilize our <br/>Wine of the Month (see below)!<br/>
                     </p>
 
                     <h2 id='wineTitle'>
@@ -82,11 +82,12 @@ export class WineSite extends React.Component {
                     </p>
 
                     <p id='wineDescription'>
-                        "This brilliantly clear, pale-straw-colored Sauvignon Blanc <br/>is fresh, bright, and crisp. The wine opens with complex <br/>aromas of lime zest, Meyer lemon, pink grapefruit, <br/>lemongrass, freshly cut hay, honeysuckle, and a hint <br/>of wet stone." - Simi
+                        "This brilliantly clear, pale-straw-colored Sauvignon Blanc <br/>is fresh, bright, and crisp. The wine opens with complex <br/>aromas of lime zest, Meyer lemon, pink grapefruit, <br/>lemongrass, freshly cut hay, honeysuckle, and a hint <br/>of wet stone." - Simi<br/>
+                        <a href="https://www.bottlecollective.com/product/2018-simi-winemakers-select-lot-no-55-sauvignon-blanc-sonoma-valley" id='exitLink'>Click here to order this bottle right to your door!</a>
                     </p>
                 </div>
+                
                 <a href="https://www.bottlecollective.com/product/2018-simi-winemakers-select-lot-no-55-sauvignon-blanc-sonoma-valley" id='wineBottle'></a>
-                <a href="https://www.bottlecollective.com/product/2018-simi-winemakers-select-lot-no-55-sauvignon-blanc-sonoma-valley" id='exitLink'>Click here to order this bottle right to your door!</a>
                 <div id='calendarSpacer'></div>
                 <Footer></Footer>
             </div>
