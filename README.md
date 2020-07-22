@@ -1,5 +1,8 @@
 # BrewCrew-Hackathon-Prototype
 
+The winning project for the Constellation Brands 2020 internal Summer internship hackathon competition, as per judges selection.
+
+
 # Notes
 - The Docs folder contains the build of our website that is currently displayed at our [GitHub Pages URL](https://daniel-mccarthy.github.io/BrewCrew-Hackathon-Prototype/).
 
